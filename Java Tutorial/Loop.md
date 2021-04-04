@@ -37,3 +37,37 @@ public class Main {
 
 
 ```
+
+### For Loop
+
+```java
+
+public class Main {
+  public static void main(String[] args) {
+      for(int i = 0; i<10; i++)
+      {
+          System.out.println(i);
+      }
+  }
+}
+
+
+```
+
+### Each Loop
+
+```java
+
+public class Main {
+  public static void main(String[] args) {
+      String[] days = {"Mondau" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "Sunday"};
+      
+      for(String i : days)
+      {
+          System.out.println(i);
+      }
+  }
+}
+
+
+```
